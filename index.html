@@ -9,8 +9,8 @@
 <body>
     <h1>Tic Tac Toe</h1>
     <div id="controls">
-        <input type="text" id="player1" placeholder="Player 1">
-        <input type="text" id="player2" placeholder="Player 2">
+        <!-- <input type="text" id="player1" placeholder="Player 1">
+        <input type="text" id="player2" placeholder="Player 2"> -->
         <br>
         <button id="start-btn">Start Game</button>
         <button id="reset-btn">Reset Game</button>
@@ -18,22 +18,24 @@
     <br><br>
     <table id="gameboard">
         <tr>
-            <td class="cell" id="c1"></td>
-            <td class="cell" id="c2"></td>
-            <td class="cell" id="c3"></td>
-        </tr>
-        <tr>
-            <td class="cell" id="c4"></td>
-            <td class="cell" id="c5"></td>
-            <td class="cell" id="c6"></td>
-        </tr>
-        <tr>
-            <td class="cell" id="c7"></td>
-            <td class="cell" id="c8"></td>
-            <td class="cell" id="c9"></td>
-        </tr>
+			<td class="cell" id="0"></td>
+			<td class="cell" id="1"></td>
+			<td class="cell" id="2"></td>
+		</tr>
+		<tr>
+			<td class="cell" id="3"></td>
+			<td class="cell" id="4"></td>
+			<td class="cell" id="5"></td>
+		</tr>
+		<tr>
+			<td class="cell" id="6"></td>
+			<td class="cell" id="7"></td>
+			<td class="cell" id="8"></td>
+		</tr>
     </table>
-    <div id="result-display"></div>
+    <div id="result-display">
+        <div id="text"></div>
+    </div>
     <script src="style.js"></script>
 </body>
 </html>
